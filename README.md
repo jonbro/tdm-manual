@@ -34,6 +34,8 @@ Hold Record, then hold pattern, then press a button 1-16 to copy the current pat
 
 ## Recording Patterns
 
+![write](https://user-images.githubusercontent.com/1597/169668262-6371d1e9-344a-4a2b-99ea-440e1cf02921.png)
+
 There are two ways to record notes into a pattern, step mode & live mode.
 
 ### Step Mode
@@ -45,6 +47,8 @@ while write is not lit, choose a note by pressing a button 1-16. Then press writ
 while write is not lit, and the pattern is not playing, hold write, then press play. Once in live mode, notes played using the buttons 1-16 will be stored in the current pattern.
 
 ## Editing Sounds
+
+![param](https://user-images.githubusercontent.com/1597/169668189-a29952e5-dec4-4509-9335-b1395ced9cce.png)
 
 While holding the parameter button, press a button 1-16. Once selected, the A & B knobs will modify the current sound.
 
