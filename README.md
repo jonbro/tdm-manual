@@ -32,6 +32,10 @@ While holding the pattern button, press a series of 1-16 buttons. This will stor
 
 Hold Record, then hold pattern, then press a button 1-16 to copy the current pattern to a new pattern.
 
+### Erase Pattern
+
+Hold Esc, then hold pattern. The pattern will be erased after a countdown.
+
 ## Recording Patterns
 
 ![write](https://user-images.githubusercontent.com/1597/169668262-6371d1e9-344a-4a2b-99ea-440e1cf02921.png)
