@@ -1,10 +1,16 @@
 # tdm guide
 
-## Power On
+## Power
+
+### On
 
 ![power](https://user-images.githubusercontent.com/1597/169668001-5d3b0e36-71a3-4dd1-bae7-5c0edf356702.png)
 
 Press and hold the power / sound select button to power on.
+
+### Off
+
+Press and hold the write button & the sound select button for 5 seconds to power off
 
 ## Playing Sounds
 
