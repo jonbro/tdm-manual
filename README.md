@@ -10,7 +10,7 @@ Press and hold the power / sound select button to power on.
 
 ### Off
 
-Press and hold the write button & the sound select button for 5 seconds to power off
+Press and hold the esc button & the sound select button for 5 seconds to power off
 
 ## Playing Sounds
 
@@ -42,6 +42,10 @@ Hold Record, then hold pattern, then press a button 1-16 to copy the current pat
 
 Hold Esc, then hold pattern. The pattern will be erased after a countdown.
 
+### Edit Page
+
+To change the page you are currently editing for the pattern, press the unlabeled button above play.
+
 ## Recording Patterns
 
 ![write](https://user-images.githubusercontent.com/1597/169668262-6371d1e9-344a-4a2b-99ea-440e1cf02921.png)
@@ -68,6 +72,7 @@ While holding the parameter button, press a button 1-16. Once selected, the A & 
 - **3** Volume / Pan
 - **4** Octave
 - **5** Volume Envelope Attack / Decay
+- **15** Pattern Length
 - **15** Delay Send
 - **16** Instrument Type / Subtype
 
