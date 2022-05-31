@@ -60,6 +60,10 @@ while write is not lit, choose a note by pressing a button 1-16. Then press writ
 
 while write is not lit, and the pattern is not playing, hold write, then press play. Once in live mode, notes played using the buttons 1-16 will be stored in the current pattern.
 
+### Parameter Lock
+
+While in step mode, hold down a lit step and move a knob to store a parameter lock for that step. There are 128*16 parameter locks available.
+
 ## Editing Sounds
 
 ![param](https://user-images.githubusercontent.com/1597/169668189-a29952e5-dec4-4509-9335-b1395ced9cce.png)
