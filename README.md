@@ -1,106 +1,91 @@
-# tdm guide
+# twr tdm Guide
 
-## Power
+![layout](https://user-images.githubusercontent.com/1597/217648968-f9a99f64-c31c-4133-81ce-2ff4c84cad0c.png)
 
-### On
+## Quick Start
+1. Press and hold the power / sound button to power up.
+2. Press play to start the pattern playback.
+3. Press the 1-16 buttons to make sounds.
+4. Press the Record button then a 1-16 button to insert a sound.
 
-![power](https://user-images.githubusercontent.com/1597/169668001-5d3b0e36-71a3-4dd1-bae7-5c0edf356702.png)
+## The Fuction Buttons
 
-Press and hold the power / sound select button to power on.
+All the buttons along the top row act as shift buttons. They are as follows:
 
-### Off
+### Sound
+Hold Sound & Press one of the 1-16 buttons to select a sound.
 
-Press and hold the esc button & the sound select button for 5 seconds to power off
+### Pattern
+Hold Pattern & Press one of the 1-16 buttons to select a pattern.
+While holding, press additional pattern buttons to chain patterns together into a song.
 
-## Playing Sounds
+### Parameter
+Hold Paramater & Press one of the 1-16 buttons to select a parameter. When a parameter is selected, it will be displayed onscreen, and using the a/b knobs will edit it. Most parameters apply to the voice accross all patterns, except as noted.
 
-![power](https://user-images.githubusercontent.com/1597/169668001-5d3b0e36-71a3-4dd1-bae7-5c0edf356702.png)
+These parameters are listed on the buttons in the image above, they are as follows:
+1. Timbre / Color & Sample In / Out
+2. Filter Cutoff & Resonance
+3. Volume
+4. Octave
+5. Envelope 1 Attack & Decay- This envelope is routed to volume by default, and can be routed to an additional paramater via the Env1+ (9) key.
+6. Envelope 2 Attack & Decay - This envelope has no routing or depth by default, and must be routed via the Env2+ (10) key
+7. LFO Speed & Depth. The LFO speed is derived from the current tempo, so changing the tempo will alter this speed.
+8. Not Used
+9. Envelope 1 Routing & Depth - the volume envelope can be additionally routed to another parameter, and have either positive or negative depth applied
+10. Envelope 2 Routing & Depth - the second envelope can be routed to a parameter, and have either positive or negative depth applied.
+11. LFO Routing
+12. Not Used
+13. Voice Pattern Length & Speed - how many steps this voice uses on this pattern, and how fast each step is. This can be set per voice per pattern.
+14. Not Used
+15. FX Delay Send & Reverb Send
+16. Synth Settings
+	- The Synt has many voices underneath it. The code for these comes from Mutable Instruments Braids, please check their manual for what the parameters refer to
+	- The Samp voice has a slice, pitch, and loop length sync option.
+In addition, you can hold the parameter key and press the following keys to access more options:
+	- Play: BPM & sync output settings - Sync can be set to PO (pocket operator), 24PQ (24 pulses per quarternote), Midi, or a combination of midi & one of the other two.
+	- Pattern: set the number of 16th notes before changing to the next pattern when a pattern change is requested.
 
-Select a sound by holding power / sound select button, then pressing a button from 1-15. Key 16 is reserved for global settings.
+### Escape / Delete
+Pressing Escape and one of the following keys provides these options:
 
-Once selected, press a button from 1-16 to play a sound. If no sound plays, confirm you are not in write mode.
+- Sound / Power: save and shutdown
+- Pattern: clear the currently selected pattern
+- Arm: erase a voices sample
 
-## Playing Patterns
+### Arm / Record
+Press Arm / Record and a voice that does not have a sample (one of the keys highlighted in red) to record a sample.
 
-![pattern](https://user-images.githubusercontent.com/1597/169668019-7df65cb7-40dc-4ac1-8541-8dec7e7adfff.png)
+### Mute
+Press the Mute and a 1-16 button to mute that voice.
 
-Select a pattern by holding the pattern button, then pressing a button from 1-16.
-
-![play](https://user-images.githubusercontent.com/1597/169668011-9c127b89-8b1f-47b5-baec-abeadbfedf33.png)
-
-Press play to start or stop the pattern.
-
-### Chaining Patterns
-
-While holding the pattern button, press a series of 1-16 buttons. This will store a sequence of patterns.
-
-### Copy Pattern
-
-Hold Record, then hold pattern, then press a button 1-16 to copy the current pattern to a new pattern.
-
-### Erase Pattern
-
-Hold Esc, then hold pattern. The pattern will be erased after a countdown.
-
-### Edit Page
-
-To change the page you are currently editing for the pattern, press the unlabeled button above play.
-
-## Recording Patterns
-
-![write](https://user-images.githubusercontent.com/1597/169668262-6371d1e9-344a-4a2b-99ea-440e1cf02921.png)
+## Recording Patterns[](https://jonbro.github.io/tdm-guide/#recording-patterns)
 
 There are two ways to record notes into a pattern, step mode & live mode.
 
-### Step Mode
+### Step Mode[](https://jonbro.github.io/tdm-guide/#step-mode)
 
 while write is not lit, choose a note by pressing a button 1-16. Then press write to enter write mode. Pressing buttons 1-16 will enter the last selected note on those steps.
 
-### Live Mode
+### Live Mode[](https://jonbro.github.io/tdm-guide/#live-mode)
 
 while write is not lit, and the pattern is not playing, hold write, then press play. Once in live mode, notes played using the buttons 1-16 will be stored in the current pattern.
 
-### Parameter Lock
+### Parameter Lock[](https://jonbro.github.io/tdm-guide/#parameter-lock)
 
 While in step mode, hold down a lit step and move a knob to store a parameter lock for that step. There are 128*16 parameter locks available.
 
-## Editing Sounds
+### Edit Page[](https://jonbro.github.io/tdm-guide/#edit-page)
 
-![param](https://user-images.githubusercontent.com/1597/169668189-a29952e5-dec4-4509-9335-b1395ced9cce.png)
+To change the page you are currently editing for the pattern, press the unlabeled button above play.
 
-While holding the parameter button, press a button 1-16. Once selected, the A & B knobs will modify the current sound.
+## Copying data
 
-### All Voice Parameters
+Hold the Record Key and one of the following keys to copy data:
+- Sound: Copy the currently selected sound to another voice. 
+- Pattern: Copy the currently selected pattern to another pattern.
 
-- **2** Filter Cutoff / Resonane
-- **3** Volume / Pan
-- **4** Octave
-- **5** Volume Envelope Attack / Decay
-- **15** Pattern Length
-- **15** Delay Send
-- **16** Instrument Type / Subtype
+## Additional Notes
 
-### Synth Parameters
-- **1** Timbre / Color
+The unit will shut down after 2 minutes of not pressing a key when not playing & 20 minutes after not pressing a key when playing.
 
-### Sampler Parameters
-- **1** Sample In / Out points
-
-### Midi Parameters 
-
-None, it just dumps all notes out to channel 1. "Enjoy".
-
-### Global Channel (voice 16)
-- **1** Bpm
-- **2** Enable Speaker
-- **15** Line In to delay send
-
-## Sampling
-
-Press and hold the arm button to sample. It will append to the currently selected voice.
-
-## Power Off / Somethings Gone Wrong
-
-On the back of the unit, there are two buttons - While looking at the back of the unit they are (uboot / run) - to power off, press the right button. If you are connected to usb, it will immediately power back on, this is expected.
-
-If something has gone wrong, or you want to update your firmware, while holding the uboot button, press the run button while plugged into USB. This will present the unit as a usb drive, where you can drag the new firmware on.
+To flash new firmware, hold down the Record key while powering up & connected to usb to enter usb drive mode.
