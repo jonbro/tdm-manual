@@ -89,3 +89,10 @@ Hold the Record Key and one of the following keys to copy data:
 The unit will shut down after 2 minutes of not pressing a key when not playing & 20 minutes after not pressing a key when playing.
 
 To flash new firmware, hold down the Record key while powering up & connected to usb to enter usb drive mode.
+
+## Known Issues
+- The synt - //// voice has issues at the more extreme ends of the spectrum
+- Midi input / live play has a tendency to get stuck notes
+- When at low battery, the key colors droop, and its possible that saving will not work
+- when attached to usb power, there is a tendency to have noise on the audio output
+- the lfo speed is inverted (low end is fast, high end is slow)
