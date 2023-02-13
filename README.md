@@ -96,3 +96,4 @@ To flash new firmware, hold down the Record key while powering up & connected to
 - When at low battery, the key colors droop, and its possible that saving will not work
 - when attached to usb power, there is a tendency to have noise on the audio output
 - the lfo speed is inverted (low end is fast, high end is slow)
+- the vol target in the envelopes & lfo doesn't work.
