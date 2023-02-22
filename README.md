@@ -26,7 +26,7 @@ These parameters are listed on the buttons in the image above, they are as follo
 1. Timbre / Color & Sample In / Out
 2. Filter Cutoff & Resonance
 3. Volume
-4. Octave
+4. Not Used
 5. Envelope 1 Attack & Decay- This envelope is routed to volume by default, and can be routed to an additional paramater via the Env1+ (9) key.
 6. Envelope 2 Attack & Decay - This envelope has no routing or depth by default, and must be routed via the Env2+ (10) key
 7. LFO Speed & Depth. The LFO speed is derived from the current tempo, so changing the tempo will alter this speed.
@@ -72,7 +72,9 @@ while write is not lit, and the pattern is not playing, hold write, then press p
 
 ### Parameter Lock[](https://jonbro.github.io/tdm-guide/#parameter-lock)
 
-While in step mode, hold down a lit step and move a knob to store a parameter lock for that step. There are 128*16 parameter locks available.
+While in step mode, hold down a lit step and move a knob to store a parameter lock for that step. There are 128\*16 parameter locks available.
+
+While in playback, holding down record and moving a knob will store parameter locks for playing steps as it passes.
 
 ### Edit Page[](https://jonbro.github.io/tdm-guide/#edit-page)
 
@@ -84,11 +86,21 @@ Hold the Record Key and one of the following keys to copy data:
 - Sound: Copy the currently selected sound to another voice. 
 - Pattern: Copy the currently selected pattern to another pattern.
 
+## Changing Octave, Root note and Scale
+
+Hold the parameter key and press the record key to access the octave & root note settings.
+While on this parameter page, hold parameter key and press record key again to access the scale settings.
+Changing these values _will not_ change the notes for steps which have already been set.
+
 ## Additional Notes
 
 The unit will shut down after 2 minutes of not pressing a key when not playing & 20 minutes after not pressing a key when playing.
 
-To flash new firmware, hold down the Record key while powering up & connected to usb to enter usb drive mode.
+## Flash New Firmware
+
+To flash new firmware, hold down the Record key while powering up & connected to usb to enter usb drive mode. At this point you can release the record & power keys. Drag the uf2 file to this drive, and the device will copy, then shutdown. Hold powerup key, and you should have the new firmware flashed.
+
+If you have a mac on some versions of ventura, you may need to use the terminal to copy the file (`cp -X tdm-v0.pre.7.uf2 /Volumes/RPI-RP2/`). See this [thread for notes on this bug](https://github.com/raspberrypi/pico-sdk/issues/1081).
 
 ## Known Issues
 - The synt - //// voice has issues at the more extreme ends of the spectrum
@@ -97,3 +109,4 @@ To flash new firmware, hold down the Record key while powering up & connected to
 - when attached to usb power, there is a tendency to have noise on the audio output
 - the lfo speed is inverted (low end is fast, high end is slow)
 - the vol target in the envelopes & lfo doesn't work.
+- occasionally the parameter lock setting will get stuck on the display, rather than displaying the unlocked parameter. This does not affect setting the parameter or setting locks.
