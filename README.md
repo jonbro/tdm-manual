@@ -25,7 +25,7 @@ Hold Paramater & Press one of the 1-16 buttons to select a parameter. When a par
 These parameters are listed on the buttons in the image above, they are as follows:
 1. Timbre / Color & Sample In / Out
 2. Filter Cutoff & Resonance
-3. Volume
+3. Volume / Pan
 4. Not Used
 5. Envelope 1 Attack & Decay- This envelope is routed to volume by default, and can be routed to an additional paramater via the Env1+ (9) key.
 6. Envelope 2 Attack & Decay - This envelope has no routing or depth by default, and must be routed via the Env2+ (10) key
