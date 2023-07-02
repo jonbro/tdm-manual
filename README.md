@@ -30,13 +30,13 @@ These parameters are listed on the buttons in the image above, they are as follo
 5. Envelope 1 Attack & Decay- This envelope is routed to volume by default, and can be routed to an additional paramater via the Env1+ (9) key.
 6. Envelope 2 Attack & Decay - This envelope has no routing or depth by default, and must be routed via the Env2+ (10) key
 7. LFO Speed & Depth. The LFO speed is derived from the current tempo, so changing the tempo will alter this speed.
-8. Not Used
+8. Retrigger Speed & Length
 9. Envelope 1 Routing & Depth - the volume envelope can be additionally routed to another parameter, and have either positive or negative depth applied
 10. Envelope 2 Routing & Depth - the second envelope can be routed to a parameter, and have either positive or negative depth applied.
 11. LFO Routing
-12. Not Used
+12. Retrigger Depth (controls retrigger volume modification)
 13. Voice Pattern Length & Speed - how many steps this voice uses on this pattern, and how fast each step is. This can be set per voice per pattern.
-14. Not Used
+14. Trigger conditions
 15. FX Delay Send & Reverb Send
 16. Synth Settings
 	- The Synt has many voices underneath it. The code for these comes from Mutable Instruments Braids, please check their manual for what the parameters refer to
