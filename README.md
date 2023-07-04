@@ -103,7 +103,6 @@ To flash new firmware, hold down the Record key while powering up & connected to
 If you have a mac on some versions of ventura, you may need to use the terminal to copy the file (`cp -X tdm-v0.pre.7.uf2 /Volumes/RPI-RP2/`). See this [thread for notes on this bug](https://github.com/raspberrypi/pico-sdk/issues/1081).
 
 ## Known Issues
-- The synt - //// voice has issues at the more extreme ends of the spectrum
 - Midi input / live play has a tendency to get stuck notes
 - When at low battery, the key colors droop, and its possible that saving will not work
 - when attached to usb power, there is a tendency to have noise on the audio output
