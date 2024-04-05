@@ -8,7 +8,7 @@
 3. Press the 1-16 buttons to make sounds.
 4. Press the Record button then a 1-16 button to insert a sound.
 
-## The Fuction Buttons
+## The Function Buttons
 
 All the buttons along the top row act as shift buttons. They are as follows:
 
@@ -20,13 +20,13 @@ Hold Pattern & Press one of the 1-16 buttons to select a pattern.
 While holding, press additional pattern buttons to chain patterns together into a song.
 
 ### Parameter
-Hold Paramater & Press one of the 1-16 buttons to select a parameter. When a parameter is selected, it will be displayed onscreen, and using the a/b knobs will edit it. Most parameters apply to the voice accross all patterns, except as noted.
+Hold Parameter & Press one of the 1-16 buttons to select a parameter. When a parameter is selected, it will be displayed onscreen, and using the a/b knobs will edit it. Most parameters apply to the voice accross all patterns, except as noted.
 
 These parameters are listed on the buttons in the image above, they are as follows:
 1. Timbre / Color & Sample In / Out
 2. Filter Cutoff & Resonance
 3. Volume / Pan
-4. Not Used
+4. N/A
 5. Envelope 1 Attack & Decay- This envelope is routed to volume by default, and can be routed to an additional paramater via the Env1+ (9) key.
 6. Envelope 2 Attack & Decay - This envelope has no routing or depth by default, and must be routed via the Env2+ (10) key
 7. LFO Speed & Depth. The LFO speed is derived from the current tempo, so changing the tempo will alter this speed.
