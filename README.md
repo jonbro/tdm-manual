@@ -102,6 +102,19 @@ To flash new firmware, hold down the Record key while powering up & connected to
 
 If you have a mac on some versions of ventura, you may need to use the terminal to copy the file (`cp -X tdm-v0.pre.7.uf2 /Volumes/RPI-RP2/`). See this [thread for notes on this bug](https://github.com/raspberrypi/pico-sdk/issues/1081).
 
+## Factory Reset
+
+Factory reset is currently a little shonky, but it works.
+- shutdown (hold exit & ON keys)
+- attach to USB power
+- hold length (lower left) & rec (lower right), then press power
+- audcalc will boot up in test mode
+- The screen will be displaying garbage at this point, this is normal.
+- you will see a red, blue and green key. Press the red key to clear the flash memory and reset back to defaults.
+- after less than a minute you will see clear ok twice through the screen garbage. At this point disconnect power, and power on as normal.
+
+If the factory reset fails, you may get crashes during operation. Redoing the factory reset should clear the memory correctly and fix this issue.
+
 ## Known Issues
 - Midi input / live play has a tendency to get stuck notes
 - When at low battery, the key colors droop, and its possible that saving will not work
